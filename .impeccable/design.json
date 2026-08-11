@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-11T19:17:43Z",
+  "title": "Design System: Duckmoji Public Site",
+  "extensions": {
+    "colorMeta": {
+      "sun": {
+        "role": "primary",
+        "displayName": "Sticker Sun",
+        "canonical": "#ffcb21",
+        "tonalRamp": ["oklch(24% 0.08 87)", "oklch(34% 0.11 87)", "oklch(44% 0.14 87)", "oklch(55% 0.17 87)", "oklch(68% 0.18 87)", "#ffcb21", "oklch(88% 0.12 87)", "oklch(95% 0.055 87)"]
+      },
+      "sun-soft": {
+        "role": "primary",
+        "displayName": "Soft Sun",
+        "canonical": "#ffe58b",
+        "tonalRamp": ["oklch(24% 0.055 91)", "oklch(34% 0.075 91)", "oklch(44% 0.095 91)", "oklch(56% 0.115 91)", "oklch(68% 0.12 91)", "oklch(79% 0.11 91)", "#ffe58b", "oklch(96% 0.035 91)"]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Warm Cream",
+        "canonical": "#fff8df",
+        "tonalRamp": ["oklch(22% 0.015 91)", "oklch(34% 0.018 91)", "oklch(46% 0.022 91)", "oklch(58% 0.026 91)", "oklch(70% 0.03 91)", "oklch(82% 0.035 91)", "oklch(91% 0.032 91)", "#fff8df"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Clean Paper",
+        "canonical": "#fffdf7",
+        "tonalRamp": ["oklch(22% 0.006 91)", "oklch(34% 0.008 91)", "oklch(46% 0.01 91)", "oklch(58% 0.012 91)", "oklch(70% 0.014 91)", "oklch(82% 0.016 91)", "oklch(92% 0.012 91)", "#fffdf7"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Chocolate Ink",
+        "canonical": "#3f2618",
+        "tonalRamp": ["oklch(18% 0.035 53)", "#3f2618", "oklch(35% 0.06 53)", "oklch(46% 0.058 53)", "oklch(58% 0.052 53)", "oklch(70% 0.043 53)", "oklch(83% 0.03 53)", "oklch(95% 0.012 53)"]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Chocolate",
+        "canonical": "#75513a",
+        "tonalRamp": ["oklch(18% 0.03 53)", "oklch(28% 0.042 53)", "#75513a", "oklch(48% 0.06 53)", "oklch(59% 0.054 53)", "oklch(71% 0.044 53)", "oklch(83% 0.03 53)", "oklch(95% 0.012 53)"]
+      },
+      "pink": {
+        "role": "secondary",
+        "displayName": "Blush Pop",
+        "canonical": "#ff7878",
+        "tonalRamp": ["oklch(22% 0.07 24)", "oklch(33% 0.1 24)", "oklch(44% 0.14 24)", "oklch(56% 0.17 24)", "#ff7878", "oklch(76% 0.13 24)", "oklch(86% 0.08 24)", "oklch(95% 0.035 24)"]
+      },
+      "sky": {
+        "role": "secondary",
+        "displayName": "Sky Glint",
+        "canonical": "#7cc9ff",
+        "tonalRamp": ["oklch(22% 0.055 240)", "oklch(33% 0.075 240)", "oklch(44% 0.095 240)", "oklch(56% 0.11 240)", "oklch(68% 0.105 240)", "#7cc9ff", "oklch(87% 0.07 240)", "oklch(95% 0.03 240)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Chocolate Rule",
+        "canonical": "rgba(63, 38, 24, 0.18)",
+        "tonalRamp": ["oklch(18% 0.035 53 / 0.18)", "oklch(29% 0.048 53 / 0.18)", "oklch(40% 0.055 53 / 0.18)", "oklch(51% 0.052 53 / 0.18)", "oklch(62% 0.045 53 / 0.18)", "oklch(73% 0.036 53 / 0.18)", "oklch(84% 0.024 53 / 0.18)", "oklch(95% 0.01 53 / 0.18)"]
+      },
+      "paper-glass": {
+        "role": "neutral",
+        "displayName": "Paper Glass",
+        "canonical": "rgba(255, 255, 255, 0.55)",
+        "tonalRamp": ["oklch(18% 0 0 / 0.55)", "oklch(29% 0 0 / 0.55)", "oklch(40% 0 0 / 0.55)", "oklch(51% 0 0 / 0.55)", "oklch(62% 0 0 / 0.55)", "oklch(73% 0 0 / 0.55)", "oklch(84% 0 0 / 0.55)", "oklch(95% 0 0 / 0.55)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Short, oversized hero promises." },
+      "headline": { "displayName": "Headline", "purpose": "Major section and destination headings." },
+      "title": { "displayName": "Title", "purpose": "Steps, answers, and compact content headings." },
+      "body": { "displayName": "Body", "purpose": "Highly legible instructions, troubleshooting, and privacy prose." },
+      "label": { "displayName": "Label", "purpose": "Buttons, navigation, chips, stamps, and action text." }
+    },
+    "shadows": [
+      { "name": "paper-lift", "value": "0 18px 48px rgba(106, 67, 16, 0.15)", "purpose": "Broad hero, topic sheet, and destination-card elevation." },
+      { "name": "action-lift", "value": "0 8px 24px rgba(63, 38, 24, 0.2)", "purpose": "Default dark-button elevation." },
+      { "name": "action-hover", "value": "0 12px 28px rgba(63, 38, 24, 0.28)", "purpose": "Reinforces the two-pixel hover rise." },
+      { "name": "sticker-lift", "value": "drop-shadow(0 18px 16px rgba(100, 59, 16, 0.2))", "purpose": "Separates real sticker cutouts from bright fields." }
+    ],
+    "motion": [
+      { "name": "tactile-rise", "value": "180ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Quick, soft rise for buttons and destination cards." },
+      { "name": "sticker-arrival", "value": "700ms cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "One-time hero sticker entrance from a slightly blurred lower position." },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "Collapses animations and transitions when reduced motion is requested." }
+    ],
+    "breakpoints": [
+      { "name": "mobile-stack", "value": "760px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The default high-contrast action on yellow or paper surfaces.",
+      "html": "<a class=\"ds-button-primary\" href=\"#\">Show me the steps</a>",
+      "css": ".ds-button-primary { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; padding: 0.75rem 1.15rem; border: 2px solid transparent; border-radius: 13px; color: var(--paper); background: var(--ink); font-family: var(--display); font-weight: 720; line-height: 1.1; text-decoration: none; box-shadow: 0 8px 24px rgba(63, 38, 24, 0.2); transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 180ms ease; } .ds-button-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 28px rgba(63, 38, 24, 0.28); } .ds-button-primary:focus-visible { outline: 4px solid var(--ink); outline-offset: 4px; } .ds-button-primary:active { transform: translateY(0); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A quieter companion action designed to sit directly on Sticker Sun.",
+      "html": "<a class=\"ds-button-secondary\" href=\"#\">Contact support</a>",
+      "css": ".ds-button-secondary { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; padding: 0.75rem 1.15rem; border: 2px solid rgba(63, 38, 24, 0.28); border-radius: 13px; color: var(--ink); background: rgba(255, 255, 255, 0.55); font-family: var(--display); font-weight: 720; line-height: 1.1; text-decoration: none; transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-button-secondary:hover { transform: translateY(-2px); } .ds-button-secondary:focus-visible { outline: 4px solid var(--ink); outline-offset: 4px; } .ds-button-secondary:active { transform: translateY(0); }"
+    },
+    {
+      "name": "Topic Chip",
+      "kind": "chip",
+      "refersTo": "topic-chip",
+      "description": "Compact in-page wayfinding presented on the floating paper sheet.",
+      "html": "<a class=\"ds-topic-chip\" href=\"#\">Troubleshoot</a>",
+      "css": ".ds-topic-chip { display: inline-flex; padding: 0.6rem 0.85rem; border-radius: 10px; color: var(--ink); background: var(--paper); font-family: var(--body); font-weight: 700; text-decoration: none; transition: background 180ms ease; } .ds-topic-chip:hover { background: var(--sun-soft); } .ds-topic-chip:focus-visible { outline: 4px solid var(--ink); outline-offset: 4px; } .ds-topic-chip:active { background: var(--sun); }"
+    },
+    {
+      "name": "Navigation Link",
+      "kind": "nav",
+      "description": "The compact header destination with a shared hover and current-page treatment.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Preview navigation\"><a class=\"ds-nav-link\" href=\"#\" aria-current=\"page\">Support</a><a class=\"ds-nav-link\" href=\"#\">Privacy</a></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; gap: 0.4rem; } .ds-nav-link { padding: 0.55rem 0.8rem; border-radius: 10px; color: var(--ink); font-family: var(--body); font-weight: 700; text-decoration: none; } .ds-nav-link:hover, .ds-nav-link[aria-current=\"page\"] { background: rgba(255, 203, 33, 0.44); } .ds-nav-link:focus-visible { outline: 4px solid var(--ink); outline-offset: 4px; }"
+    },
+    {
+      "name": "FAQ Disclosure",
+      "kind": "custom",
+      "description": "A native expandable answer row with a circular yellow state marker.",
+      "html": "<details class=\"ds-faq\"><summary>Does Duckmoji require an account?</summary><div>No. Duckmoji has no account, sign-in, ads, tracking, networking, or in-app purchases.</div></details>",
+      "css": ".ds-faq { max-width: 700px; border-top: 2px solid var(--ink); border-bottom: 1px solid rgba(63, 38, 24, 0.18); color: var(--ink); font-family: var(--body); } .ds-faq summary { position: relative; padding: 1.35rem 3rem 1.35rem 0; cursor: pointer; font-family: var(--display); font-size: 1.35rem; font-weight: 720; list-style: none; } .ds-faq summary::after { position: absolute; top: 1.2rem; right: 0; display: grid; width: 2rem; height: 2rem; place-items: center; border-radius: 50%; background: var(--sun); content: \"+\"; } .ds-faq[open] summary::after { content: \"−\"; } .ds-faq div { max-width: 70ch; padding: 0 3rem 1.5rem 0; color: var(--ink-soft); line-height: 1.6; } .ds-faq summary:focus-visible { outline: 4px solid var(--ink); outline-offset: 4px; }"
+    },
+    {
+      "name": "Numbered Step",
+      "kind": "card",
+      "description": "A flat instructional unit introduced by a circular Sticker Sun numeral.",
+      "html": "<article class=\"ds-step\"><span class=\"ds-step-number\" aria-hidden=\"true\">1</span><h3>Open Stickers</h3><p>Open a conversation, tap the plus button, then choose Stickers.</p></article>",
+      "css": ".ds-step { max-width: 320px; min-height: 250px; padding: 2rem 1.6rem; border-top: 2px solid var(--ink); border-bottom: 2px solid var(--ink); color: var(--ink); font-family: var(--body); } .ds-step-number { display: grid; width: 2.6rem; height: 2.6rem; margin-bottom: 3.5rem; place-items: center; border-radius: 50%; background: var(--sun); font-family: var(--display); font-weight: 800; font-variant-numeric: tabular-nums; } .ds-step h3 { margin: 0 0 0.55rem; font-family: var(--display); font-size: 1.7rem; font-weight: 740; line-height: 1.08; letter-spacing: -0.035em; } .ds-step p { margin: 0; color: var(--ink-soft); line-height: 1.6; } .ds-step:focus-within { outline: 4px solid var(--ink); outline-offset: 4px; }"
+    },
+    {
+      "name": "Privacy Stamp",
+      "kind": "custom",
+      "description": "A lightly rotated proof mark for dated, trustworthy metadata.",
+      "html": "<span class=\"ds-privacy-stamp\">Effective August 11, 2026</span>",
+      "css": ".ds-privacy-stamp { display: inline-block; padding: 0.75rem 1rem; border: 2px solid var(--ink); border-radius: 12px; color: var(--ink); background: transparent; font-family: var(--display); font-weight: 760; transform: rotate(-1.5deg); } .ds-privacy-stamp:hover { background: var(--sun-soft); } .ds-privacy-stamp:focus-visible { outline: 4px solid var(--ink); outline-offset: 4px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Sticker-Sheet Help Desk",
+    "overview": "Duckmoji support should feel like opening a cheerful sticker sheet, not entering a corporate help center. The system pairs sunny fields, warm cream paper, thick chocolate ink, and expressive shipping Duckmoji artwork with direct editorial structure. It is playful on sight and trustworthy in use.\n\nPersonality comes from scale, color, gentle asymmetry, and real sticker cutouts—not from decorative clutter. Oversized display type makes each promise immediate; ruled lists and generous reading measures make practical and privacy content calm. The result is warm, legible, fast, and suitable for an App Store-facing support destination.",
+    "keyCharacteristics": [
+      "Bold sun-yellow fields against warm cream paper.",
+      "Oversized, tightly set editorial headlines with highly legible body copy.",
+      "Real Duckmoji cutouts used as expressive wayfinding and proof of character.",
+      "Rounded, high-contrast panels balanced by crisp chocolate rules.",
+      "Restrained lift, tactile states, and a single responsive mobile stack."
+    ],
+    "rules": [
+      { "name": "The Sun Owns the Greeting Rule", "body": "Use Sticker Sun for high-emotion brand moments and compact wayfinding marks; do not flood long reading surfaces with it.", "section": "colors" },
+      { "name": "The No Generic Black Rule", "body": "Chocolate Ink carries text, focus, rules, and dark surfaces so every high-contrast moment stays warm.", "section": "colors" },
+      { "name": "The Big Feeling, Clear Reading Rule", "body": "Let Bricolage make the emotional promise; hand every explanation to Atkinson Hyperlegible.", "section": "typography" },
+      { "name": "The Tight Headline Rule", "body": "Display headings use compact line-height and negative tracking, while body copy stays open and uncompressed.", "section": "typography" },
+      { "name": "The One Reading Rail Rule", "body": "Practical content aligns to the same `960px` rail even when adjacent brand moments use the broader frame.", "section": "layout" },
+      { "name": "The Paper, Ink, Sticker Rule", "body": "Use ambient shadow for sheets, firm shadow for actions, and drop shadow for cutout artwork; never apply card shadow to ruled reading rows.", "section": "elevation" },
+      { "name": "The Scale With Importance Rule", "body": "Larger radii belong to larger brand fields; compact controls stay tighter so the interface remains deliberate rather than bubbly.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do lead major moments with Sticker Sun, Chocolate Ink, and a real Duckmoji cutout.",
+      "Do keep instructions and policy copy on warm, quiet paper with generous reading measures.",
+      "Do use thick display type for promises and Atkinson Hyperlegible for every explanatory passage.",
+      "Do preserve visible four-pixel keyboard focus and reduced-motion behavior.",
+      "Do collapse multi-column structures into one clear mobile stack at `760px`."
+    ],
+    "donts": [
+      "Don't turn the public site into a generic blue-and-white corporate help center.",
+      "Don't substitute stock illustration, emoji, or abstract mascot shapes for real Duckmoji artwork.",
+      "Don't add shadow to every row; rules and tonal contrast carry most structure.",
+      "Don't introduce tiny legal copy, dense card grids, hidden mobile navigation, or low-contrast controls.",
+      "Don't crop sticker art into rectangular thumbnails or let decoration obscure practical content."
+    ]
+  }
+}
