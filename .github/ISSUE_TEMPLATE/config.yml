@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read Duckmoji support
+    url: https://mightyjuke.github.io/Duckmoji-public/support/
+    about: Check setup steps and common fixes before opening a request.
+  - name: Read the privacy policy
+    url: https://mightyjuke.github.io/Duckmoji-public/privacy/
+    about: Learn how Duckmoji handles data.

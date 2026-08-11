@@ -1,0 +1,52 @@
+name: Duckmoji support request
+description: Get help finding or using Duckmoji in Messages.
+title: "Support: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for using Duckmoji. Please do not include private messages, account details, or other personal information. This issue will be public.
+  - type: dropdown
+    id: device
+    attributes:
+      label: Device
+      options:
+        - iPhone
+        - iPad
+        - Other Apple device
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: iOS or iPadOS version
+      placeholder: "Example: iOS 26.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: topic
+    attributes:
+      label: What do you need help with?
+      options:
+        - Finding Duckmoji in Messages
+        - Sending or placing a sticker
+        - Stickers not loading
+        - App Store download
+        - Privacy question
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Tell us what you tried, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have not included private messages, account details, or other personal information.
+          required: true
